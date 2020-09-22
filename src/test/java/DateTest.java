@@ -1,4 +1,4 @@
-import com.example.HelloWorldMainApplication;
+import com.example.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +16,7 @@ import java.util.Date;
  * Time: 5:12 下午
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = HelloWorldMainApplication.class)
+@SpringBootTest(classes = Application.class)
 public class DateTest {
 
     @Test
