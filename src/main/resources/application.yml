@@ -1,0 +1,25 @@
+application:
+  version: 0.0.1
+
+spring:
+  application:
+    name: spring-boot-example
+  main:
+    banner-mode: console
+  banner:
+    charset: UTF-8
+    location: classpath:example.txt
+#    image:
+#      location: classpath:example.jpg
+#      margin: 2
+#      width: 76
+#      height: 360
+
+
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure:
+            logging: ERROR
