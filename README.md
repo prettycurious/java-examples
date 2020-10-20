@@ -2,7 +2,8 @@
 
 ### 2020年10月20日
 1. 添加Fastjson 1.2.74
-2. 添加EasyExcel WriteTest Demo
+2. 新增EasyExcel WriteTest Demo
+3. 新增EasyExcel 填充Excel Demo
 
 ### 2020年09月22日
 1. 初始化项目
