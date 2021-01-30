@@ -1,6 +1,9 @@
 application:
   version: 0.0.5
 
+server:
+  port: 8888
+
 spring:
   application:
     name: spring-boot-example
@@ -26,8 +29,11 @@ spring:
 
 logging:
   level:
+    root: DEBUG
     org:
       springframework:
         boot:
           autoconfigure:
             logging: ERROR
+#  file:
+#    name: logs/${spring.application.name}.log
