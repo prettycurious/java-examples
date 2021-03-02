@@ -1,5 +1,10 @@
 # 更新日志
 
+### 2021年03月02日
+1. 发布命令
+- git archive master --prefix='project/' | gzip > `git describe master`.tar.gz
+- git archive master --prefix='project/' --format=zip  > `git describe master`.zip
+
 ### 2020年10月20日
 1. 添加Fastjson 1.2.74
 2. 新增EasyExcel WriteTest Demo
