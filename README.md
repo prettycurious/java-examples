@@ -1,5 +1,8 @@
 # 更新日志
 
+### 2021年07月02日
+1. Maven 模块化
+
 ### 2021年03月02日
 1. 发布命令
 - git archive master --prefix='project/' | gzip > `git describe master`.tar.gz
